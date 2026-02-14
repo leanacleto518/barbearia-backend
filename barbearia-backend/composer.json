@@ -1,0 +1,24 @@
+{
+  "name": "barbearia-brum/backend",
+  "description": "Backend API para sistema de agendamento da Barbearia Brum",
+  "type": "project",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Barbearia Brum",
+      "email": "contato@barbeariabrum.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.4"
+  },
+  "scripts": {
+    "start": "php -S 0.0.0.0:$PORT",
+    "dev": "php -S localhost:8000"
+  },
+  "config": {
+    "optimize-autoloader": true,
+    "preferred-install": "dist",
+    "sort-packages": true
+  }
+}
