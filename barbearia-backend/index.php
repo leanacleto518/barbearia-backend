@@ -43,6 +43,8 @@ $info = [
     'endpoints' => [
         'GET /' => 'Informações da API',
         'POST /agendamento-online.php' => 'Criar novo agendamento',
+        'GET /listar-agendamentos.php' => 'Listar todos os agendamentos (JSON)',
+        'GET /listar-agendamentos.php?download=true' => 'Baixar agendamentos (CSV)',
         'GET /health' => 'Health check do servidor'
     ],
     'recursos' => [
